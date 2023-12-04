@@ -19,12 +19,8 @@ import Nav from "@/components/Nav/page";
 import SideBar from "@/components/SideBar/page";
 import Footer from "@/components/Footer/page";
 import ProfileSidebar from "@/components/ProfileSidebar/page";
-import { Headers } from "node-fetch";
-import { Suspense } from "react";
-import Loading from "./loading";
 
-// Use Headers
-const headers = new Headers();
+import fetch, { Headers } from "node-fetch";
 
 export const metadata: Metadata = {
   title: "Create Next App",
