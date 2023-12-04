@@ -19,9 +19,10 @@ import Nav from "@/components/Nav/page";
 import SideBar from "@/components/SideBar/page";
 import Footer from "@/components/Footer/page";
 import ProfileSidebar from "@/components/ProfileSidebar/page";
+import { Headers } from "node-fetch";
 
-const fetch = require("node-fetch");
-const headers = new fetch.Headers();
+// Use Headers
+const headers = new Headers();
 
 export const metadata: Metadata = {
   title: "Create Next App",
