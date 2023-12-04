@@ -20,6 +20,8 @@ import SideBar from "@/components/SideBar/page";
 import Footer from "@/components/Footer/page";
 import ProfileSidebar from "@/components/ProfileSidebar/page";
 import { Headers } from "node-fetch";
+import { Suspense } from "react";
+import Loading from "./loading";
 
 // Use Headers
 const headers = new Headers();
@@ -42,7 +44,7 @@ export default function RootLayout({
             <ProfileSidebar />
             <div className="col-lg-8 contentColumn">
               <Nav />
-              <SideBar />
+              {/* <SideBar /> */}
               <div className="bodyContent">
                 <div className="pageCointainer">
                   <section className="comonSection aboutSection">

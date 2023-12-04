@@ -51,6 +51,7 @@ export default function Experience() {
           {resumeexp.map((item, id) => (
             <>
               <div
+                key={item.id}
                 className="card"
                 onClick={() => {
                   handleClick(id);

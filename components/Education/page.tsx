@@ -37,26 +37,25 @@ export default function Education() {
     <>
       <div className="col-lg-6">
         <h2 className="sectionTitle">Education</h2>
-        <div className="kr-accordion">
-          {resumeedu.map((item, index) => (
+        <div className="kr-accordion" id="exps_accordion">
+          {resumeedu.map((item, id) => (
             <>
               <div
+                key={item.id}
                 className="card"
                 onClick={() => {
-                  handleClick(index);
+                  handleClick(id);
                 }}
               >
                 <div className="card-header">
                   <h2 className="mb-0">
-                    <a className={index === isClick ? "" : "collapsed"}>
+                    <a className={id === isClick ? "" : "collapsed"}>
                       <i className="icon icon-Medal" />
                       <span>{item.title}</span>
                     </a>
                     <i
                       className={clsx(
-                        index === isClick
-                          ? "icofont-plus "
-                          : "icofont-arrow-down",
+                        id === isClick ? "icofont-plus " : "icofont-arrow-down",
                         "float-right"
                       )}
                     ></i>
@@ -64,7 +63,7 @@ export default function Education() {
                 </div>
                 <div
                   id="ea_col_01"
-                  className={index === isClick ? "collapsed" : "collapse"}
+                  className={id === isClick ? "collapsed" : "collapse"}
                 >
                   <div className="card-body ">
                     <div className="ac_meta">
