@@ -38,6 +38,7 @@
 @media (min-width: 1600px) {
   .profileSidebar {
     position: fixed;
+    width: 330px;
   }
 }
 .psHeader {

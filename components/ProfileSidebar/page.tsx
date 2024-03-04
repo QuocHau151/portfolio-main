@@ -1,9 +1,10 @@
+import Image from "next/image";
 import React from "react";
 
 export default function ProfileSidebar() {
   return (
-    <div className="col-lg-4 profileColumn">
-      <div className="profileSidebar">
+    <div className="col-lg-4 profileColumn ">
+      <div className="profileSidebar ">
         <div className="psHeader">
           <svg preserveAspectRatio="none" viewBox="0 0 100 100">
             <polygon points="0 20, 100 20, 0 100" opacity=".65" />
@@ -21,7 +22,12 @@ export default function ProfileSidebar() {
           </div>
         </div>
         <div className="psPhoto">
-          <img src="/assets/images/home_01/avt.jpeg" />
+          <Image
+            src="/assets/images/home_01/avt.jpeg"
+            width={1000}
+            height={1000}
+            alt=""
+          />
           <div className="psSocial">
             <a
               href="https://facebook.com/quochau151"
@@ -47,10 +53,10 @@ export default function ProfileSidebar() {
         </div>
         <div className="psSkills">
           <div className="pssBox" data-count={85}>
-            <div className="pssbCount">70.</div>
+            <div className="pssbCount">80.</div>
             <h5>Frontend Development</h5>
             <div className="pssbBars">
-              <div className="pssbBar" style={{ width: "70%" }} />
+              <div className="pssbBar" style={{ width: "80%" }} />
             </div>
           </div>
           <div className="pssBox" data-count={92}>
@@ -62,7 +68,7 @@ export default function ProfileSidebar() {
           </div>
           <div className="pssBox" data-count={71}>
             <div className="pssbCount">70.</div>
-            <h5>UI Design</h5>
+            <h5>UI/UX Design</h5>
             <div className="pssbBars">
               <div className="pssbBar gr3" style={{ width: "70%" }} />
             </div>

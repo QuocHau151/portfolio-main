@@ -18,6 +18,10 @@ export default function Skill() {
             <i className="interest-badminton" />
             <h3>Badminton</h3>
           </div>
+          <div className="singleInt">
+            <i className="interest-trophy" />
+            <h3>Coding</h3>
+          </div>
         </div>
         <div className="col-lg-7">
           <h2 className="sectionTitle">Skills</h2>
@@ -36,21 +40,7 @@ export default function Skill() {
               <span />
               <i>9/10</i>
             </div>
-            <div className="ldInner profLevel7">
-              <h5>ReactJs</h5>
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <i>7/10</i>
-            </div>
-            <div className="ldInner profLevel7">
+            <div className="ldInner profLevel9">
               <h5>Tailwind</h5>
               <span />
               <span />
@@ -62,9 +52,37 @@ export default function Skill() {
               <span />
               <span />
               <span />
-              <i>7/10</i>
+              <i>9/10</i>
             </div>
-            <div className="ldInner profLevel5">
+            <div className="ldInner profLevel8">
+              <h5>ReactJs</h5>
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <i>8/10</i>
+            </div>
+            <div className="ldInner profLevel8">
+              <h5>NextJs</h5>
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <i>8/10</i>
+            </div>
+            <div className="ldInner profLevel7">
               <h5>NodeJS</h5>
               <span />
               <span />
@@ -76,9 +94,9 @@ export default function Skill() {
               <span />
               <span />
               <span />
-              <i>5/10</i>
+              <i>7/10</i>
             </div>
-            <div className="ldInner profLevel5">
+            <div className="ldInner profLevel7">
               <h5>ExpressJs</h5>
               <span />
               <span />
@@ -90,9 +108,9 @@ export default function Skill() {
               <span />
               <span />
               <span />
-              <i>5/10</i>
+              <i>7/10</i>
             </div>
-            <div className="ldInner profLevel5">
+            <div className="ldInner profLevel7">
               <h5>MongoDB</h5>
               <span />
               <span />
@@ -104,7 +122,7 @@ export default function Skill() {
               <span />
               <span />
               <span />
-              <i>5/10</i>
+              <i>7/10</i>
             </div>
             <div className="ldInner profLevel9">
               <h5>Photoshop</h5>

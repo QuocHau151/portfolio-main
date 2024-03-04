@@ -4,17 +4,17 @@ import React, { useState } from "react";
 const resumeedu = [
   {
     id: 1,
-    title: "University transportation HCM",
-    year: "2019 - 2020",
-    grade: "0",
-    description: "Chuyên ngành Kinh doanh vận tải.",
-  },
-  {
-    id: 2,
     title: "University of economics and law",
     year: "2020 - 2023",
     grade: "3.0",
     description: "Chuyên ngành Kinh tế quản lý công",
+  },
+  {
+    id: 2,
+    title: "University transportation HCM",
+    year: "2019 - 2020",
+    grade: "0",
+    description: "Chuyên ngành Kinh doanh vận tải.",
   },
   {
     id: 3,

@@ -20,7 +20,8 @@ export default function WhatIDo() {
               </h3>
               <h5>Fresher</h5>
               <p>
-                Can using HTML , CSS , Javascript , ReactJS , NextJS , Tailwind
+                Can using HTML , CSS , Javascript , ReactJS , NextJS ,
+                TailwindCSS
               </p>
             </div>
           </div>
@@ -56,6 +57,20 @@ export default function WhatIDo() {
                 <i className="icon icofont-ui-camera" />
               </div>
               <h3>
+                <a href="">Digital Marketing</a>
+              </h3>
+              <h5>Fresher</h5>
+              <p>
+                Has 3 month of experience on SEO on Google for FPT SmartHome
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <div className="icon_box_02">
+              <div className="i_div">
+                <i className="icon icofont-ui-camera" />
+              </div>
+              <h3>
                 <a href="">Photographer</a>
               </h3>
               <h5>Semi-professional</h5>
@@ -73,7 +88,7 @@ export default function WhatIDo() {
               <h3>
                 <a href="">Social Media</a>
               </h3>
-              <h5>Facebook, Tiktok</h5>
+              <h5>Shoppe, Facebook</h5>
               <p>
                 Has 2 years of experience in selling products through Shoppe
               </p>

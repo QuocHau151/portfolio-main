@@ -75,7 +75,7 @@
 @media (max-width: 1023px) {
   .menu_btn {
     height: 100%;
-    width: calc(100% - 90px);
+    width: calc(100%);
     background: #01d85f;
     color: #fff;
     line-height: 90px;

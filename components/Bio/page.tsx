@@ -13,14 +13,13 @@ export default function Bio() {
           <div className="col-lg-6">
             <div className="abContent">
               <p>
-                I am a passionate and dedicated business candidate, and my goal
-                is to learn from experiences and work in the role of a Business
-                Developer intern. I am looking for opportunities to develop my
-                skills, create real value and make positive contributions to the
-                development of your company. With enthusiasm, continuous
-                learning and a commitment to quality, I want to contribute to
-                the success of your company while concurrently developing myself
-                in a challenging work environment.
+                Hello, {"I'm"} Tran Le Quoc Hau, a creative and passionate web
+                developer with over 1 year of experience in web programming.
+                Throughout my career, {"I've"} had the opportunity to work on
+                diverse projects, ranging from personal websites to complex
+                content management systems. My expertise lies in Front-End
+                development, particularly with the ReactJS framework. I am eager
+                to contribute my skills and energy to collaborative projects.
               </p>
               <p></p>
             </div>
@@ -28,11 +27,12 @@ export default function Bio() {
           <div className="col-lg-6">
             <div className="abContent">
               <p className="mb27">
-                In addition, I also have the ability to work well in groups and
-                as a team Organize and manage work well, have good communication
-                skills, have ability Ability to work under high pressure, adapt
-                well New working environment, ability to work independently and
-                competently Ability to work effectively with all subjects
+                My future goal is to become a full-stack developer within the
+                next year. With a strong passion for technology and a keen
+                desire for continuous learning, I aspire to work in a dynamic
+                and innovative environment. I am eager to expand my skill set
+                and explore additional programming languages such as PostgreSQL,
+                ReactNative, NestJS, and more.
               </p>
               <img className="signImg" src="assets/images/home_01/3.png" />
             </div>

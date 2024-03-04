@@ -9,7 +9,7 @@ export default function Contact() {
             <h2 className="sectionTitle">Contact Me</h2>
           </div>
         </div>
-        <div className="row mb30">
+        <div className="row mb30  ">
           <div className="col-lg-8">
             <div className="contact_form">
               <form method="post" action="#" id="contactForm">
@@ -49,7 +49,7 @@ export default function Contact() {
                       defaultValue={""}
                     />
                   </div>
-                  <div className="col-lg-12">
+                  <div className="col-lg-12 mt-3">
                     <button type="submit" className="btt_btn">
                       <span>
                         <i className="icon icon-Mail" />
@@ -62,10 +62,10 @@ export default function Contact() {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="icon_box_01">
+            <div className="icon_box_01 ">
               <i className="icon icon-Mail" />
               <h3 className="pb-2 ">Email </h3>
-              <p>Tranlequochau.blc@gmail.com</p>
+              <p className="inline-block">Tranlequochau.blc @gmail.com</p>
             </div>
             <div className="icon_box_01">
               <i className="icon icon-Phone" />

@@ -39,7 +39,7 @@ export default function Nav() {
   };
 
   return (
-    <header className="header clearfix">
+    <header className="header clearfix flex items-center justify-center">
       <Link href="#" className="menu_btn  " onClick={toggleMenu}>
         <i className="icofont-navigation-menu" />
         Menu
@@ -80,13 +80,6 @@ export default function Nav() {
           </ul>
         </nav>
       )}
-      <a href="#" className="sidebarToggler">
-        <span>
-          <span />
-          <span />
-          <span />
-        </span>
-      </a>
     </header>
   );
 }

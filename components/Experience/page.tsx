@@ -3,7 +3,15 @@ import clsx from "clsx";
 import React, { useState } from "react";
 const resumeexp = [
   {
-    id: 4,
+    id: 1,
+    title: "Internship FPT Telecom.",
+    year: "12/23 - 3/24",
+    grade: "FPT Smart Home",
+    description:
+      "Xây dựng trang web bán hàng cho phòng Kinh doanh FPT Smart Home. Sử dụng các công nghệ như HTML, CSS, Typescript, ReactJS, NextJS, TailwindCSS để xây dựng trang thông tin, bán sản phẩm và kịch bản bán hàng cho Seller. Thiết kế website chuẩn SEO và tối ưu tốc độ tải trang. Chạy quảng cáo Google Ads để tìm khách hàng cho Công ty.",
+  },
+  {
+    id: 1,
     title: "Content & Designer.",
     year: "2020 - 2022",
     grade: "CLB Kỹ Năng UEL",
@@ -11,7 +19,7 @@ const resumeexp = [
       "Lên kế hoạch truyền thông cho Fanpage CLB Kỹ Năng UEL. Sáng tạo nội dung và design hình ảnh cho bài đăng. Làm photographer và chạy kỹ thuật cho các sự kiện lớn của CLB..",
   },
   {
-    id: 5,
+    id: 2,
     title: "Freelancer Photographer.",
     year: "2020 - 2022",
     grade: "Kỷ yếu Sài Gòn, Kỷ yếu Đồng Nai",
@@ -19,7 +27,7 @@ const resumeexp = [
       "Được các Studio thuê để chụp ảnh kỷ yếu cho học sinh cấp 1,2,3 và sinh viên các trường Đại học trong khu vực Thành phố Hồ Chí Minh và Đồng Nai. Sử dụng các phần mềm như Photoshop, Lightroom, Premiere để chỉnh sửa hình ảnh và video.",
   },
   {
-    id: 5,
+    id: 3,
     title: "Kinh doanh quán ăn.",
     year: "2021 - 2022",
     grade: "KTX Khu B",
@@ -27,7 +35,7 @@ const resumeexp = [
       "Cùng chị ruột mở quán Bún đậu mắm tôm ở Làng Đại học TPHCM. Đảm nhiệm công việc quản lý nhân viên và thu ngân của quán. Quảng bá sản phẩm đến khách hàng trên nền tảng Facebook và Tiktok. Tài trợ cho Câu lạc bộ của các trường Đại học để tăng độ nhận diện của quán ăn đến nhiều sinh viên hơn.",
   },
   {
-    id: 5,
+    id: 4,
     title: "Kinh doanh Shoppe.",
     year: "2021 - 2023",
     grade: "Mỹ Phẩm",
@@ -61,7 +69,7 @@ export default function Experience() {
                   <h2 className="mb-0">
                     <a className={id === isClick ? "" : "collapsed"}>
                       <i className="icon icon-Medal" />
-                      <span>{item.title}</span>
+                      <span className="tracking-normal">{item.title}</span>
                     </a>
                     <i
                       className={clsx(

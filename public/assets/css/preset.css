@@ -38,7 +38,7 @@ body {
   padding: 80px 0;
 }
 body.dark {
-  background: url(../images/bg/1.png) no-repeat fixed top center #34313f;
+  background: url(../images/bg/1.png) repeat fixed top center #34313f;
 }
 p {
   margin: 0 0 15px;

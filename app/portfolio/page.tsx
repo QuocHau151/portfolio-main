@@ -1,11 +1,12 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 const projects = [
   {
     id: 1,
-    href: "/portfolio#",
-    img: "assets/images/folio/1.jpg",
-    title: " Design",
+    href: "/portfolio/fpt-smart-home",
+    img: "/assets/images/folio/smarthome.png",
+    title: " FPT Smart Home",
     category: "Development",
   },
 ];
@@ -45,19 +46,21 @@ export default function Portfolio() {
               {projects.map((item) => (
                 <>
                   <Link href={item.href} className="folio_item_thumbs">
-                    <div className="folio_stack">
-                      <div className="folio_decoration" />
-                      <div className="folio_decoration" />
-                      <div className="folio_decoration" />
-                      <div className="folio_decoration" />
+                    <div className="folio_stack bg-white">
                       <div className="folio_img_holder">
-                        <img className="folio_img" src={item.img} alt="Image" />
+                        <Image
+                          className="folio_img"
+                          src={item.img}
+                          alt="Image"
+                          width={500}
+                          height={300}
+                        />
                       </div>
                     </div>
                   </Link>
                   <div className="folio_content">
                     <h3 className="folio_title">
-                      <a href="single_folio.html">{item.title}</a>
+                      <Link href="/portfolio/fpt-smart-home">{item.title}</Link>
                     </h3>
                     <p className="folio_cat">
                       <a href="#">{item.category}</a>
